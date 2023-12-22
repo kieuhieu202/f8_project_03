@@ -10,10 +10,23 @@ html {
 }
 
 body {
-  font-family: "Poppin", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
 }
 /* Commit */
+.btn {
+  display: inline-block;
+  padding: 0 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 68px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  min-width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: #1ebfc1;
+}
 a:hover {
   opacity: 0.9;
 }
@@ -21,18 +34,20 @@ a {
   text-decoration: none;
 }
 .content {
+  margin: 0 auto;
   padding: 0 24px;
   max-width: 1170px;
 }
 /* header */
 .header-fixed {
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   position: sticky;
   top: -30px;
   padding-top: 30px;
 }
-.header-fixed .content {
-  margin: 0 auto;
-}
+
 .nav {
   display: flex;
   padding: 22px 0 11px;
@@ -73,4 +88,165 @@ a {
 .nav .action a:last-child:hover {
   background-color: #1ebfc1;
   color: #fff;
+}
+
+.hero {
+  padding: 39px 0 79px;
+}
+.hero .content {
+  display: flex;
+}
+.hero-info {
+  width: 41%;
+  margin-top: 93px;
+}
+
+.hero-info .title {
+  color: #767e7e;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.hero-info .heading {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.hero-info .desc {
+  word-break: keep-all;
+  margin-top: 46px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.77;
+}
+
+.hero-info .ctn-link {
+  margin-right: 50px;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero-info .ctn-group {
+  display: flex;
+  align-items: center;
+  margin-top: 52px;
+}
+
+.hero-info .watch-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  border: none;
+}
+.hero-stats {
+  position: relative;
+  width: 57%;
+  margin-left: 71px;
+}
+.hero-stats .img {
+  display: block;
+  margin-left: auto;
+  /* right: 0;
+  position: absolute; */
+  width: 90%;
+  height: 631px;
+  object-fit: cover;
+}
+
+.hero-stats .courses {
+  display: flex;
+  align-items: center;
+  padding: 17px 25px 18px;
+  position: absolute;
+  top: 149px;
+  left: 25px;
+  width: 157px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero-stats span {
+  margin-left: 16px;
+  color: #0d1111;
+  font-size: 1.1rem;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.hero-stats .courses .book {
+  position: absolute;
+  bottom: 26px;
+  left: 29px;
+  width: 28px;
+  height: 4px;
+  border-radius: 999px;
+  background-color: #fff;
+}
+
+.hero-stats .schedules-block {
+  position: absolute;
+  left: 0;
+  bottom: 46px;
+  display: flex;
+  padding: 16px 25px 23px;
+  width: 124px;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-stats .schedules-img img {
+  display: block;
+}
+
+.hero-stats .schedules-img img:nth-child(2) {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.hero-stats .schedules-block .item {
+  margin: 0 auto;
+  width: 26px;
+  height: 6px;
+  border-radius: 3px;
+  background: #edf1f5;
+}
+
+.hero-stats .active-block {
+  position: absolute;
+  right: 45px;
+  bottom: 41px;
+  padding: 17px 35px;
+  width: 207px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero-stats .active-block .avatar-group {
+  display: flex;
+  margin-top: 8px;
+}
+
+.hero-stats .active-block .avatar {
+  width: 33px;
+  height: 33px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hero-stats .avatar:not(:first-child) {
+  margin-left: -7px;
 }
