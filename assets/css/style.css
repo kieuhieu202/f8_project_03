@@ -1,7 +1,76 @@
 * {
   box-sizing: border-box;
 }
-
+html,
+body {
+  scroll-behavior: smooth;
+}
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppin", sans-serif;
+  font-size: 1.6rem;
+}
+/* Commit */
+a:hover {
+  opacity: 0.9;
+}
+a {
+  text-decoration: none;
+}
+.content {
+  padding: 0 24px;
+  max-width: 1170px;
+}
+/* header */
+.header-fixed {
+  position: sticky;
+  top: -30px;
+  padding-top: 30px;
+}
+.header-fixed .content {
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  padding: 22px 0 11px;
+  align-items: center;
+}
+
+.nav .list {
+  margin-left: auto;
+  display: flex;
+  margin-right: 158px;
+}
+
+.nav .list a {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 11px 19px;
+}
+
+.nav .list a:hover {
+  text-shadow: 1px 1px 0px currentColor;
+}
+
+.nav .action a:first-child {
+  margin-right: 24px;
+  color: #494949;
+  font-weight: 400;
+}
+
+.nav .action a:last-child {
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  color: #1ebfc1;
+  font-weight: 600;
+}
+
+.nav .action a:last-child:hover {
+  background-color: #1ebfc1;
+  color: #fff;
 }
