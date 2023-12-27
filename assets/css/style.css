@@ -14,6 +14,25 @@ body {
   font-size: 1.6rem;
 }
 /* Commit */
+.main-heading {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+.main-desc {
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-title {
+  letter-spacing: 0.7px;
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
 .btn {
   display: inline-block;
   padding: 0 12px;
@@ -249,4 +268,161 @@ a {
 
 .hero-stats .avatar:not(:first-child) {
   margin-left: -7px;
+}
+
+/* Features */
+.features {
+  padding: 50px 0;
+  margin-top: 80px;
+}
+
+.features-top {
+  width: 53%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.features-list {
+  width: 1024px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-list .item:first-child {
+  width: 168px;
+}
+
+.features-list .item:nth-child(2) {
+  width: 223px;
+}
+
+.features-list .item:last-child {
+  width: 224px;
+}
+
+.features-list .title {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.features-list .desc {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.68;
+}
+
+/* Courses */
+.courses {
+  margin: 30px 0;
+  padding: 50px 0;
+}
+
+.courses-top .main-desc {
+  width: 47%;
+}
+.courses-top .main-heading {
+  margin-top: 18px;
+}
+.courses-top .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 19px;
+}
+
+.courses-top .row .link {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.courses-list {
+  display: flex;
+  gap: 47px;
+  margin-top: 79px;
+}
+.courses-list .item {
+  width: 100%;
+  position: relative;
+}
+.courses-list .thumbnail {
+  display: block;
+  width: 100%;
+  height: 393px;
+  object-fit: cover;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+.courses-list .thumbnail:hover {
+  opacity: 0.7;
+  background: #d0efed;
+}
+
+.courses-list .body {
+  position: absolute;
+  top: 322px;
+  width: 91%;
+  padding: 18px 25px 29px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.courses-list .body .title {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.courses-list .body .fee {
+  margin-top: 16px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.courses-list .fee span {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.courses-list .body .desc {
+  margin-top: 12px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.courses-list .body .qty {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.courses-list .qty .dot {
+  margin-top: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #1ebfc1;
+}
+
+.courses-list .qty-item {
+  display: flex;
+  align-items: center;
+}
+
+.courses-list .container {
+  display: flex;
+  justify-content: center;
 }
