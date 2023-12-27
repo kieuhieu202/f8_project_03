@@ -453,3 +453,109 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
 }
+
+/* Review */
+.review {
+  padding: 50px 0;
+  margin: 25px 0;
+}
+.review .content {
+  display: flex;
+  gap: 72px;
+}
+.review .info {
+  width: 38%;
+}
+
+.review .info .desc {
+  margin-top: 27px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.review .sub-desc {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-top: 33px;
+}
+.review .sub-desc p {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.review .sub-desc span {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.review .info .dash {
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+
+.review .info .arrow-group {
+  display: flex;
+  margin-top: 52px;
+  gap: 30px;
+}
+
+.review .avatar {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.review .avatar-group {
+  width: 62%;
+  position: relative;
+}
+.review .avatar-group .avatar:first-child {
+  position: absolute;
+  top: 0;
+  left: 144px;
+}
+
+.review .avatar-group .avatar:nth-child(2) {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  right: 0;
+  top: 19px;
+}
+
+.review .avatar-group .avatar:nth-child(3) {
+  width: 235px;
+  height: 235px;
+  position: absolute;
+  top: 107px;
+  right: 171px;
+}
+
+.review .avatar-group .avatar:nth-child(4) {
+  width: 78px;
+  height: 78px;
+  position: absolute;
+  bottom: 29px;
+  right: 32px;
+}
+
+.review .avatar-group .avatar:nth-child(5) {
+  width: 78px;
+  height: 78px;
+  position: absolute;
+  bottom: 0;
+  left: 212px;
+}
+
+.review .avatar-group .avatar:nth-child(6) {
+  width: 78px;
+  height: 78px;
+  position: absolute;
+  bottom: 145px;
+  left: 0;
+}
