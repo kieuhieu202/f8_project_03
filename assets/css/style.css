@@ -14,6 +14,9 @@ body {
   font-size: 1.6rem;
 }
 /* Commit */
+.logo {
+  height: 37px;
+}
 .main-heading {
   color: #0d1111;
   font-size: 4.2rem;
@@ -558,4 +561,109 @@ a {
   position: absolute;
   bottom: 108px;
   left: 0;
+}
+
+/* Admin */
+.admin {
+  padding: 76px 0 88px;
+  margin-top: 92px;
+  background: #def6f5;
+}
+
+.admin .row {
+  display: flex;
+  gap: 410px;
+  align-items: center;
+}
+
+.admin .info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Footer */
+.footer {
+  padding: 100px 0 50px;
+  margin-top: 30px;
+}
+
+.footer .container {
+  display: flex;
+  gap: 144px;
+}
+
+.footer .list {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.footer .list .heading {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footer .list a {
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.footer ul a {
+  display: inline-block;
+  margin-top: 18px;
+}
+.footer .list ul {
+  margin-top: 26px;
+}
+
+.footer .item:first-child ul {
+  margin-top: 25px;
+}
+
+.footer .item:first-child a {
+  margin-top: 20px;
+}
+
+.footer .social-group {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer .social-link {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.footer li:first-child a {
+  margin-top: 0;
+}
+
+.footer .item:first-child li:first-child a {
+  margin-top: 0;
+}
+
+.footer .social-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+}
+
+.footer .social-img:hover {
+  background-color: #41c0c4;
+}
+
+.footer .copyright {
+  margin-top: 80px;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
