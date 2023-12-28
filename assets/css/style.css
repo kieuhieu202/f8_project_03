@@ -14,6 +14,12 @@ body {
   font-size: 1.6rem;
 }
 /* Commit */
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 3);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .logo {
   height: 37px;
 }
